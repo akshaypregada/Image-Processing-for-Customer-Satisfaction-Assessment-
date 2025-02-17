@@ -12,18 +12,18 @@ This project implements a **Facial Emotion Recognition System** using **Convolut
 
 ## Project Structure
 ```
-├── emotiondetector.h5       # Pre-trained model weights
+├── CVIP_Pdf.pdf             # Project report
+├── README.md                # Project Documentation
 ├── emotiondetector.json     # Model architecture
 ├── realtimedetection.py     # Script for real-time emotion detection
-├── Project_Pdf.pdf          # Project report
-├── README.md                # Project Documentation
+├── trainmodel.ipynb         # Model training script
 ```
 
 ## Installation
 ### Prerequisites
 Ensure you have **Python 3.7+** installed and install the required dependencies:
 ```bash
-pip install numpy opencv-python tensorflow keras
+pip install numpy opencv-python tensorflow keras gdown
 ```
 
 ## Running the Project
@@ -59,7 +59,7 @@ The model consists of **four convolutional layers**, each followed by:
 | Dense (4)         | (4)           | 1,028      |
 
 ## Emotion Detection Process
-1. Loads the trained model architecture (`emotiondetector.json`) and weights (`emotiondetector.h5`).
+1. Loads the trained model architecture (`emotiondetector.json`).
 2. Captures live video frames from the webcam.
 3. Converts the image to **grayscale** and applies **HaarCascade face detection**.
 4. Resizes the detected face to **48x48 pixels** (model input size).
