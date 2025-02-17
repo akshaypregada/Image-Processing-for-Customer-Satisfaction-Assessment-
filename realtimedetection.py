@@ -1,7 +1,17 @@
 import cv2
 import numpy 
 import pandas as pd
+import gdown
 from keras.models import model_from_json
+
+# Google Drive file ID extracted from the shared link
+file_id = "15wk718aKgu9si2aX41xGYJhhIWFScJaD"
+url = f"https://drive.google.com/uc?id={file_id}"
+output = "emotiondetector.h5"
+
+# Download the file
+gdown.download(url, output, quiet=False)
+print("Model downloaded successfully!")
 
 with open("emotiondetector.json", "r") as file:
     model_json = file.read()
