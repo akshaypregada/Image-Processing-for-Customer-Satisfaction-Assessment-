@@ -70,16 +70,18 @@ The model consists of **four convolutional layers**, each followed by:
 Below are sample images showing real-time emotion detection:
 
 ### Angry
-![Angry](image1.png)
+<img width="222" alt="image" src="https://github.com/user-attachments/assets/1c521f22-d53c-4f61-af1f-adc213f34f50" />
+
 
 ### Happy
-![Happy](image2.png)
+<img width="224" alt="image" src="https://github.com/user-attachments/assets/6e09a14d-b6d4-4657-85b8-17a00f6abbb2" />
+
 
 ### Neutral
-![Neutral](image3.png)
+<img width="226" alt="image" src="https://github.com/user-attachments/assets/cd1ea301-0752-480d-a97f-8080b206b576" />
 
 ### Sad
-![Sad](image4.png)
+<img width="227" alt="image" src="https://github.com/user-attachments/assets/f942ba55-67e8-49b6-b43a-80c4e2c75e47" />
 
 ## References
 - OpenCV Face Detection: [OpenCV Docs](http://docs.opencv.org/master/d7/d8b/tutorialpyfacedetection.html)
