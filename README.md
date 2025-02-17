@@ -15,7 +15,7 @@ This project implements a **Facial Emotion Recognition System** using **Convolut
 ├── emotiondetector.h5       # Pre-trained model weights
 ├── emotiondetector.json     # Model architecture
 ├── realtimedetection.py     # Script for real-time emotion detection
-├── CVIP_Pdf.pdf             # Project report
+├── Project_Pdf.pdf             # Project report
 ├── README.md                # Project Documentation
 ```
 
