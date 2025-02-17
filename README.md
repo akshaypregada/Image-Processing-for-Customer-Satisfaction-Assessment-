@@ -66,10 +66,24 @@ The model consists of **four convolutional layers**, each followed by:
 5. Passes the preprocessed image through the CNN for emotion classification.
 6. Displays the **predicted emotion** on the video frame.
 
+## Sample Output
+Below are sample images showing real-time emotion detection:
+
+### Angry
+![Angry](image1.png)
+
+### Happy
+![Happy](image2.png)
+
+### Neutral
+![Neutral](image3.png)
+
+### Sad
+![Sad](image4.png)
+
 ## References
 - OpenCV Face Detection: [OpenCV Docs](http://docs.opencv.org/master/d7/d8b/tutorialpyfacedetection.html)
 - Deep Learning-based Emotion Recognition: Various research papers and GitHub implementations
 
 ## Author
 **Akshay Pregada**
-
